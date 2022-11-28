@@ -1,7 +1,7 @@
 public class Car {
     public String model;
     public int age;
-    private boolean wasInAccident = false; // true
+    private boolean wasInAccident = true;
 
     public Car(String model, int age) {
         this.model = model;
